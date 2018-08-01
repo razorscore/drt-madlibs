@@ -11,6 +11,14 @@
     justify-self: center;
 }
 
+.gray {
+    background: gray;
+}
+
+.green {
+    background: #00cb79;
+}
+
 
 .home {
     background-color: rgba(207, 207, 207, 0.06);
@@ -112,12 +120,25 @@
         height: 297px;
         background-color: #f2f2f2;
 
+        font-family: 'Montserrat';
         justify-self: center;
         margin-bottom: 84px;
 
+        &__label {
+            height: 18px;
+            width: 18px;
+            font-size: 14px;
+            line-height: 22px;
+            color: white;
+            background-color: black;
+            border-radius: 50%;
+            text-align: center;
+            display: inline-block;
+            margin: 4px;
+        }
+
         p {
             padding: 50px 47px;
-            font-family: 'Montserrat';
             font-size: 16px;
             font-weight: 300;
             line-height: 29px;
@@ -168,7 +189,6 @@
     &__number {
         grid-column: number-s/number-e;
 
-        background-color: #00cb79;
         color: white;
         font-size: 20px;
         text-align: center;
