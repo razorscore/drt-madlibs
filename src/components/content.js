@@ -5,7 +5,14 @@ class Content extends Component {
     constructor() {
         super();
         this.count = 1;
+    }
 
+    componentDidUpdate() {
+        this.count = 1;
+    }
+
+    componentWillReceiveProps() {
+        this.count = 1;
     }
 
     renderLabel(data) {

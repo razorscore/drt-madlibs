@@ -102,15 +102,16 @@
 
     button:focus{
         outline: none;
-        transform: translateY(50%);
     }
 
     &__generate {
+        transform: translateY(-150px);
         background-color: #00cb79;
         @include button;
     }
 
     &__clear {
+        transform: translateY(50%);
         background-color: #54B0E5;
         @include button;
     }
